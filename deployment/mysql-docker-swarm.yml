@@ -20,7 +20,7 @@ services:
       replicas: 5
       endpoint_mode: dnsrr
       placement:
-        max_replicas_per_node: 1
+        max_replicas_per_node: 2
       update_config:
         parallelism: 1
         delay: 60s
